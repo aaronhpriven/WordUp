@@ -216,7 +216,7 @@ function mousePressed() {
 }
 
 function keyTyped() {
-  if (keyCode == 32) {
+  if (keyCode == 32 || keyCode == 13) {
     found = 0;
     var newLetters = []
     myword = myword.toLowerCase();
