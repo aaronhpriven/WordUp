@@ -31,7 +31,7 @@ function preload() {
 function setup() {
   healthbarH = .2 * height;
   canvas = createCanvas(700, 700);
-  canvas.position(windowWidth/2 - canvas.width/2, windowHeight-canvas.height);
+  canvas.position(windowWidth/2 - canvas.width/2, 50);
   // header = createElement("h1", "Word Up");
   // header.position(windowWidth/2 - 170,200);
   
